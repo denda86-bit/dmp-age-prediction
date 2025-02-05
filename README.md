@@ -18,9 +18,3 @@ The following libraries are required to run this project:
 - requests
 - json
 - urllib
-
-You can install them using pip:
-
-```bash
-pip install pandas numpy scipy matplotlib seaborn scikit-learn ua-parser requests
-
