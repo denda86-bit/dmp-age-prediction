@@ -1,2 +1,26 @@
-# dmp-age-prediction
-This repository solves a data science task to predict user age using demographic data from a Data Management Platform (DMP). It involves training a model on one provider’s data, predicting age for another provider, and offering insights on improving model performance, especially for targeted age groups.
+# Age Group Prediction Model
+
+## Overview
+
+This project aims to predict the age group of users based on various features such as user agent, provider, URL, and location data. The model is trained using data from two providers, and an ensemble learning approach with Random Forest, Extra Trees, and Gradient Boosting classifiers is used for prediction.
+
+## Requirements
+
+The following libraries are required to run this project:
+
+- pandas
+- numpy
+- scipy
+- matplotlib
+- seaborn
+- scikit-learn
+- ua-parser (for user agent parsing)
+- requests
+- json
+- urllib
+
+You can install them using pip:
+
+```bash
+pip install pandas numpy scipy matplotlib seaborn scikit-learn ua-parser requests
+
